@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+.navbar-logo svg {
+  width: 50px;
+  cursor: pointer;
+}
+.navbar-left,
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+.menu-items {
+  text-transform: uppercase;
+  list-style: none;
+  font-weight: 250px;
+  font-size: 15px;
+}
+.menu a {
+  margin: 8px;
+  text-decoration: none;
+  color: black;
+}
+.menu a:hover {
+  color: #006241;
+}
+.navbar-left {
+  margin: 20px 50px;
+}
+.menu {
+  margin: 10px;
+  padding: 10px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.navbar-right-items {
+  display: flex;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-right-part1 {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+  padding: 30px;
+}
+.login,
+.Become-a-member {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+.navbar-right {
+  margin: 0 100px;
+}
+.Become-a-member {
+  color: white;
+  background-color: black;
+}
